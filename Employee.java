@@ -110,8 +110,7 @@ class Manager extends Employee {
         this.nbTravelDays = nbTravelDays;
     }
     private double getAnnualIncome() {
-        //2. We need to clacluate the annualincome and we need to use this function in additional info method to display the annual income for test2 for now i place dummy number which is 1000.00
-       return 1000.00;
+        return (((nbClients*Gain_factor_client)+(nbTravelDays*Gain_factor_travel))+(this.rate/100)*getMonthlyIncome() * 12 );
     }
     @Override
     String employeeType() {
