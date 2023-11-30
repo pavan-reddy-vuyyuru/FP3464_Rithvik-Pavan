@@ -50,7 +50,7 @@ class Motorcycle extends Vehicle {
         this.sidecar = sidecar;
     }
     public String vehicleInfo() {
-        //5. I just returned some string here but u need to implement the function that should return vehicle details for test2 likewise...
+        //6. I just returned some string here but u need to implement the function that should return vehicle details for test2 likewise...
         return "Vehicle details";
 
     }
