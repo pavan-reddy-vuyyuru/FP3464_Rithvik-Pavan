@@ -193,7 +193,3 @@ class Tester extends Employee {
                 this.name,this.rate,nbBugs, getAnnualIncome());
     }
 }
-
-/*Please remove this comment after you get all ouput exactly...
-I am as of now getting sample output with dummy strings without any bugs .. you implement the remaining methods and complete that..
- */

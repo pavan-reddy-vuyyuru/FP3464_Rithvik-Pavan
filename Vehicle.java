@@ -37,8 +37,8 @@ class Car extends Vehicle {
         this.type = type;
     }
     public String vehicleInfo() {
-        //5. I just returned some string here but u need to implement the function that should return vehicle details for test2 likewise...
-        return "Vehicle details";
+        return String.format("Employee has a %s%n- make: %s%n- plate: %s%n- Gear Type: %s%n- color: %s%n- category: %s%n",
+                getClass().getSimpleName(),make, plate,gear,color, category);
     }
 }
 
