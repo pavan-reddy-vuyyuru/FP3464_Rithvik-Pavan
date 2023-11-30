@@ -12,14 +12,14 @@ abstract class Employee {
         this.birthYear = birthYear;
         this.rate = rate;
         this.vehicle =vehicle;
-        System.out.println("We have a new employee: " + name+", a" + employeeType());
+        System.out.println("We have a new employee: " + name+", a " + employeeType());
     }
     public Employee(String name, int birthYear, Vehicle vehicle) {
         this.name = name;
         this.birthYear = birthYear;
         this.vehicle = vehicle;
         this.rate = 100;
-        System.out.println("We have a new employee: " + name +", a" + employeeType());
+        System.out.println("We have a new employee: " + name +", a " + employeeType());
     }
     public Employee(String name, int birthYear, double rate, Contract contract, Vehicle vehicle){
         this.name = name;
@@ -30,8 +30,8 @@ abstract class Employee {
             this.rate = 100.0;
         }
         this.contract = contract;
-        this.vehicle =vehicle;
-        System.out.println("We have a new employee: " + name +", a"+ employeeType());
+        this.vehicle = vehicle;
+        System.out.println("We have a new employee: " + name +", a "+ employeeType());
     }
     public String getName() {
         return name;
