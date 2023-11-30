@@ -180,8 +180,7 @@ class Tester extends Employee {
         this.nbBugs = nbBugs;
     }
     private double getAnnualIncome() {
-        //4. We need to calculate the annual income and we need to use this function in additional info method to display the annual income for test2 for now i place dummy number which is 1000.00. This is also same as manager class but claculation is different so check question once..
-        return 1000.00;
+        return (getMonthlyIncome() * 12 * this.rate)+(nbBugs*Gain_factor_error);
     }
     @Override
     String employeeType() {
