@@ -38,7 +38,7 @@ class Car extends Vehicle {
     }
     public String vehicleInfo() {
         return String.format("Employee has a %s%n- make: %s%n- plate: %s%n- Gear Type: %s%n- color: %s%n- category: %s%n",
-                getClass().getSimpleName(),make, plate,gear,color, category);
+                getClass().getSimpleName(),make, plate,gear,color,category);
     }
 }
 
@@ -50,8 +50,8 @@ class Motorcycle extends Vehicle {
         this.sidecar = sidecar;
     }
     public String vehicleInfo() {
-        .return String.format("Employee has a %s%n- make: %s%n- plate: %s%n- color: %s%n- category: %s%n",
-                getClass().getSimpleName(),make, plate,color, category);
+        return String.format("Employee has a %s%n- make: %s%n- plate: %s%n- color: %s%n- category: %s%n",
+                getClass().getSimpleName(),make, plate,color,category);
 
     }
 }

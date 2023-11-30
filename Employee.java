@@ -110,7 +110,7 @@ class Manager extends Employee {
         this.nbTravelDays = nbTravelDays;
     }
     private double getAnnualIncome() {
-        return (((nbClients*Gain_factor_client)+(nbTravelDays*Gain_factor_travel))+(this.rate/100)*getMonthlyIncome() * 12 );
+        return (((nbClients*Gain_factor_client)+(nbTravelDays*Gain_factor_travel))+(this.rate/100)*getMonthlyIncome()*12);
     }
     @Override
     String employeeType() {
