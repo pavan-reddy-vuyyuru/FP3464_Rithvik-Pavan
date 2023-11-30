@@ -82,8 +82,7 @@ abstract class Employee {
                 additionalInfo());
     }
     public String contractInfo() {
-        //1.here we should get the contract details which is in test case 3 output implement function accordingly return String.format("%n%s is a %s . %s",name,employeeType(),contract.contractInfoFrom());
-        return "HEre";
+        return String.format("%n%s is a %s . %s",name,employeeType(),contract.contractInfoFrom());
     }
 }
 
